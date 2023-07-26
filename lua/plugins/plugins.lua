@@ -7,6 +7,8 @@ return {
     require("plugins.ui.nvim-tree"),
     require("plugins.ui.bufferline"),
     require("plugins.ui.gitsigns"),
+    require("plugins.ui.toggleterm"),
+    require("plugins.ui.alpha"),
     require("plugins.lsp.nvim-lspconfig"),
     require("plugins.lsp.mason"),
     require("plugins.lsp.mason-lspconfig"),
