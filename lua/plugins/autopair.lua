@@ -1,4 +1,5 @@
 return {
+	event="VeryLazy",
     "windwp/nvim-autopairs",
     config=function ()
         local npairs_ok, npairs = pcall(require, "nvim-autopairs")
