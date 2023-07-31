@@ -9,9 +9,9 @@ return {
 			bold = true,
 			italic = {
 				strings = false,
-				comments = true,
+				comments = false,
 				operators = false,
-				folds = true,
+				folds = false,
 			},
 			strikethrough = true,
 			invert_selection = false,
