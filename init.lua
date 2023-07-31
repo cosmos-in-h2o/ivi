@@ -1,2 +1,2 @@
-require("core.download")
-require("core.setup")
+require("config.keymaps")
+require("config.options")

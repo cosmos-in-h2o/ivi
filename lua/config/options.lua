@@ -19,5 +19,3 @@ vim.api.nvim_create_autocmd({"TextYankPost"},{
 		})
 	end,
 })
---终端真颜色
-set.termguicolors = true
