@@ -10,6 +10,7 @@ return {
     require("plugins.ui.toggleterm"),
     require("plugins.ui.alpha"),
 	require("plugins.ui.outline"),
+	require("plugins.ui.preview"),
     require("plugins.lsp.nvim-lspconfig"),
     require("plugins.lsp.mason"),
     require("plugins.lsp.mason-lspconfig"),
