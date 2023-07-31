@@ -1,5 +1,5 @@
 theme_module={}
-theme_module.theme="gruvbox"
+theme_module.theme="catppuccin"
 function theme_module.config()
 	vim.o.background = "dark"
 	vim.cmd(string.format("%s %s","colorscheme",theme_module.theme))

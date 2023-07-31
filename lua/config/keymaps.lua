@@ -47,4 +47,14 @@ vim.keymap.set('n', '<leader>fm', function()
 	vim.lsp.buf.format { async = true }
 end, lsp_opt)
 --outline
-vim.keymap.set("n", "<leader>ol", ":SymbolsOutlineOpen<CR>",{})
+vim.keymap.set("n", "<leader>ol", ":SymbolsOutlineOpen<CR>", {})
+--flash
+vim.keymap.set("n", "<leader>ss", function()
+	require("flash").jump()
+end, {})
+vim.keymap.set("v", "<leader>ss", function()
+	require("flash").jump()
+end, {})
+vim.keymap.set("c", "<leader>ss", function()
+	require("flash").jump()
+end, {})

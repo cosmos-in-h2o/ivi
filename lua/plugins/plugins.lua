@@ -21,4 +21,5 @@ return {
     "hrsh7th/cmp-path", -- 文件路径
     require("plugins.comment"),--注释
     require("plugins.autopair"),--括号
+    require("plugins.flash"),--括号
 }
