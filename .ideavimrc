@@ -1,0 +1,49 @@
+set number
+set relativenumber
+set clipboard=unnamed
+set paste
+
+" 将空格键设置为主键
+let mapleader = " "
+
+" jk代替esc
+inoremap jk <Esc>
+
+" ctrl+hjkl 窗口内跳转
+noremap <c-h> <c-w>h
+noremap <c-j> <c-w>j 
+noremap <c-k> <c-w>k
+noremap <c-l> <c-w>l
+
+" 主键+vw/sw 分割窗口  
+nnoremap <leader>vw <c-w>v
+nnoremap <leader>sw <c-w>s
+nnoremap <leader>cw <C-w>c
+
+" 主键+fm 代码格式化
+nnoremap <leader>fm :action ReformatCode<cr>
+
+nnoremap <leader>ss /
+
+" H/L 切换标签页
+nnoremap H gT
+nnoremap L gt
+
+" 主键+q 退出标签页
+nnoremap <leader>q :close<cr>
+
+" 主键+ff 搜索文件
+map <leader>ff :action GotoFile<CR>
+
+" ctrl+e 关闭补全
+inoremap <c-e> <Esc>
+
+" 主键+nn 重命名标识符
+nnoremap <leader>nn :action RenameElement<CR>
+nnoremap <leader>kk :action QuickDefinition<CR>
+
+" 设置 gc 为注释选中行
+vmap gc :action CommentByLineComment<CR>
+
+" 设置 gcc 为注释当前行 
+nmap gcc :action CommentByLineComment<CR>
