@@ -30,7 +30,7 @@ vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 --nvim-tree
-vim.keymap.set("n", "<leader>ts", ":NvimTreeToggle<CR>", {})
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", {})
 vim.keymap.set("n", "<leader>tr", ":NvimTreeRefresh<CR>", {})
 --bufferline
 vim.keymap.set("n", "L", ":BufferLineCycleNext<CR>")

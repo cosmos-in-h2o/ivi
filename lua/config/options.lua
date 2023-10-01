@@ -21,3 +21,8 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 })
 --终端真颜色
 set.termguicolors = true
+--折叠相关
+set.foldmethod="expr"
+set.foldexpr="nvim_treesitter#foldexpr()"
+set.foldenable=false
+set.foldlevel=99
